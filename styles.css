@@ -1,0 +1,60 @@
+header {
+	background-image: url('HeaderBackground.jpg');
+	background-repeat: no-repeat;
+	background-position: 10% 10%; 
+	background-attachment: fixed;
+}
+
+#col-sm-4 {
+	background-color: lightgray
+}
+
+#col-sm-4.ul {
+    border-width: 5px;
+	text-decoration: none;
+}
+
+#col-sm-4.li a{
+	border-style: solid;
+    border-width: 2px;
+	text-decoration: none;
+}
+
+#col-sm-4.li a.active{
+	border-style: solid;
+    border-width: 5px;
+	color: red;
+	text-decoration: none;
+}
+
+#col-sm-4.li a:hover:not(.active){
+	border-style: solid;
+    border-width: 2px;
+	color: green;
+	text-decoration: none;
+}
+
+body {
+	background-color: gray
+}
+
+h1 {
+	font-family: Helvetica;
+	color: White;
+	text-align: center;
+	font-weight: bold;
+}
+
+p {
+	font-family: Helvetica;
+	font-size: 25pt;
+	color: White;
+	text-align: center;
+	font-weight: bold;
+	}
+	
+footer {
+    position: absolute;
+    bottom: 10px;
+    width: 50%;
+}
