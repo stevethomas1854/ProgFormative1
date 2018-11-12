@@ -19,6 +19,20 @@
 	padding: 10px;
 }
 
+.overlay {
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #0000cc;
+}
+
+.imfade:hover .overlay {
+	opacity: 1;
+}
+
+.hiddenmessage {
+	color: white;
+}
+
 .highlight {
 	border-style: double;
 	margin: 20px;
