@@ -22,9 +22,9 @@
 		<div class="col-sm-2" id="navbar">
 			<ul>
 				<li> <a href="index.html"> Home </a> </li>
-				<li> <a href="#Medicine"> Medicine </a> </li>
+				<li> <a href="#Medicine"> Medicine </a> </li> <!-- should remove the hash, it makes you remain on the same page -->
 				<li> <a class="active" href="Engineering.html"> Engineering </a> </li>
-				<li> <a href="#CyberSecurity"> Cyber Security </a> </li>
+				<li> <a href="#CyberSecurity"> Cyber Security </a> </li> <!-- Hash again -->
 			</ul>
 		</div>
 
@@ -49,9 +49,9 @@
 			<br>
 			<br>
 			<p id="maintext"> Thirdly, additional software has allowed the logistical side of engineering to be as easy as possible. There are many pieces of software designed to keep track of resources and the availability of them. They can also help plan the transportation and storage of materials as well. Furthermore, the digiitilisation of this information has also allowed companies to become international as operations can be controlled from anywhere around the world. This has allowed for international colloboration which has consequently led to more ambitious and impressive projects.</p>
-			<br>
+			<br> <!-- break has no close tag -->
 			<p id="maintext"> Finally, the impressive speed that computers can process information has allowed complex simualtions to be run. These are vital for engineers to check how effective a new system would be, or even if it would work at all. This means that engineers can quickly spot errors and improvements before any commitment has been made. This has saved not only money and resources but valuable time that can now be reinvested in creating a better system.</p>
-			<br> <br> <br> <br>
+			<br> <br> <br> <br> <!-- your break tags are incorrect, theres no close tags -->
 		</div>
 		<div class="col-sm-2" id="side">
 			<img src="side1.jpg" id="sideimg">
@@ -59,6 +59,8 @@
 			<img src="side3.jpg" id="sideimg">
 			<img src="side4.jpg" id="sideimg">
 			<img src="side5.jpg" id="sideimg">
+<!-- These images do not appear -->
+<!-- theres no point in ids if you give five elements the same Id -->
 		</div>
 	</div>
 </div>
